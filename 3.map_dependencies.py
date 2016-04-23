@@ -25,4 +25,4 @@ for row in packages.iterrows():
                 count+=1
 
 # Save to file
-df.to_csv("pypi.csv",inde=False)
+df.to_csv("pypi.csv",index=False)
