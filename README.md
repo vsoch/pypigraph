@@ -12,7 +12,7 @@ Run [2.get_meta.py](2.get_meta.py) to download meta data (a json file) for each 
 
 ### 3. Generate graph input
 
-The input is a simple csv file with target,source, and value column headers. For value, I'll first try using the package monthly downloads. This is generated with [3.map_dependencies.py](3.map_depencies.py)
+The input is a simple csv file with target,source, and value column headers. For value, I'll first try using the package monthly downloads. This is generated with [3.map_dependencies.py](3.map_dependencies.py)
 
 ### 4. Generate graph
 
