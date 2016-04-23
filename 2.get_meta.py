@@ -1,11 +1,18 @@
 # get_meta will use pypi API to get meta data about packages
 
-from repofish.utils import save_json
 import requests
 import pandas
 import json
 import time
 import os
+
+# Function to save pretty json
+def save_json(json_obj,output_file):
+    filey = open(output_file,'wb')
+    filey.write(json.dumps(json_obj, sort_keys=True,indent=4, separators=(',', ': ')))
+    filey.close()
+    return output_file
+
 
 url = "https://pypi.python.org/pypi/%s/json"
 

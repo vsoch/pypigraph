@@ -8,7 +8,7 @@ Run [1.get_pypi.py](1.get_pypi.py) to produce pypi.tsv (included in the repo, so
 
 ### 2. Get Package MetaData
 
-Run [2.get_meta.py](2.get_meta.py) to download meta data (a json file) for each package. Optionally, you can filter down to packages to ones that have meta data. This should be all of them, but I haven't finished parsing at the time of writing this README, so there may be some bugs with the PyPi API to be missing package data.
+Run [2.get_meta.py](2.get_meta.py) to download meta data (a json file) for each package. Optionally, you can filter down to packages to ones that have meta data. This should be all of them, but I haven't finished parsing at the time of writing this README, so there may be some bugs with the PyPi API to be missing package data. Note that this was originally part of my [repofish](http://www.github.com/vsoch/repofish) project (and will continue to be :O) )
 
 ### 3. Generate graph input
 
