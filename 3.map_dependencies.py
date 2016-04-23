@@ -5,7 +5,7 @@ import json
 import os 
 
 folder = os.getcwd()
-packages = pandas.read_csv("%s/pypi.tsv" %folder,sep="\t",index_col=0)
+packages = pandas.read_csv("%s/pypi_filtered.tsv" %folder,sep="\t",index_col=0)
 
 # GRAPHISTRY VISUALIZATIOn ###############################################
 df = pandas.DataFrame(columns=["source","target","value"])

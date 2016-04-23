@@ -43,4 +43,4 @@ for row in packages.iterrows():
 
 # Remove the functions we don't have meta data for
 packages = packages.drop(drop)
-pandas.to_csv(packages,"%s/pypi_filtered.tsv" %folder,sep="\t")
+packages.to_csv("%s/pypi_filtered.tsv"%folder,sep="\t",encoding="utf-8")
