@@ -7,7 +7,7 @@ import os
 folder = os.getcwd()
 packages = pandas.read_csv("%s/pypi.tsv" %folder,sep="\t",index_col=0)
 
-# NODEJS VISUALIZATIOn #########################################################
+# GRAPHISTRY VISUALIZATIOn ###############################################
 df = pandas.DataFrame(columns=["source","target","value"])
 
 count=1
