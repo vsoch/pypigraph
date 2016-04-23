@@ -1,4 +1,4 @@
-# PyPy Package Index
+# PyPi Package Index
 
 This is a test visualization to map PyPi package dependencies using [graphistry](https://labs.graphistry.com).
 
