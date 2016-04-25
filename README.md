@@ -21,3 +21,7 @@ The code to generate the graph is in the ipython notebook [pypi.ipynb](pypi.ipyn
 You can see the visualization [here](https://labs.graphistry.com/graph/graph.html?type=vgraph&viztoken=fcc371749aa7182d19cbe6d017652f7e95d272e6&usertag=72805b68-pygraphistry-0.9.27&info=true&dataset=Users%2FWWEM9C9GP6_srcjav2l6d69sgfzuxr&play=0)
 
 Note that this only includes packages with links, which reduces the subset down quite a bit.
+
+### Python in Pubmed Central
+
+I've started to look at comparing journals in Pubmed Central based on the functions they use. Early analysis can be seen in [the python-in-pubmed notebook](python-in-pubmed.ipynb) and a direct link to a simple clustering of journals can be seen [here](https://goo.gl/eFUe0i).
